@@ -14,9 +14,10 @@ Camp-Grounds is an online platform where users can view and share information ab
 
 ## Technologies Used
 - **Frontend:**
-  - React
-  - Redux
+  - HTML
+  - CSS
   - Bootstrap
+  - Javascipt
 - **Backend:**
   - Node.js
   - Express
