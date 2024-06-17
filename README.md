@@ -56,7 +56,7 @@ To run this project locally, follow these steps:
 
 4. **Run the application:**
    ```bash
-   npm app.js
+   node app.js or nodemon app.js
    ```
 
    The application should now be running on `http://localhost:3000`.
