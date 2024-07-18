@@ -1,10 +1,10 @@
 
 # Camp-Grounds
 
-Welcome to Camp-Grounds! This is a MERN stack web application that allows users to access and create campgrounds online.
+Welcome to Camp-Grounds! This is a web application that allows users to access and create campgrounds online.
 
 ## Introduction
-Camp-Grounds is an online platform where users can view and share information about various campgrounds. Users can create new campground listings, view details of existing campgrounds, and leave comments.
+Camp-Grounds is an online platform where users can view and share information about their own campgrounds. Users can create new campground listings, view details of existing campgrounds also on 3D and 2D maps, and leave comments.
 
 ## Features
 - **User Authentication:** Secure user registration and login.
@@ -14,9 +14,10 @@ Camp-Grounds is an online platform where users can view and share information ab
 
 ## Technologies Used
 - **Frontend:**
-  - React
-  - Redux
+  - HTML
+  - CSS
   - Bootstrap
+  - Javascript
 - **Backend:**
   - Node.js
   - Express
@@ -48,22 +49,21 @@ To run this project locally, follow these steps:
 
    MAPBOX_TOKEN=your_mapboxtoken
 
+   SECRET=your_secretCode_for_sessions
 
-  SECRET=your_secretCode_for_sessions
-
-  DB_URL=your_mongodb_uri
+   DB_URL=your_mongodb_uri
    ```
 
 4. **Run the application:**
    ```bash
-   npm app.js
+   node app.js or nodemon app.js
    ```
 
    The application should now be running on `http://localhost:3000`.
 
 ## Usage
 1. Register for a new account or log in with existing credentials.
-2. Browse the list of available campgrounds.
+2. Browse the list of available campgrounds nearby along with their location on the map.
 3. Click on any campground to view more details.
 4. Create, edit, or delete your own campgrounds.
 5. Leave comments on campgrounds to share your experience.
